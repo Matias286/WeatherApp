@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.col{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(49, 48, 48);
+}
+
+.number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8rem;
+    color: white;
+}
+
+#weatherImg{
+    width: 200px;
+    height: 200px;
+}
+
+#humidity{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+#mainCard{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+#city{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.location{
+    display: flex;
+}
+
+#location-icon{
+    height: 40px;
+    margin-left: 15px;
+    color: white;
+}
